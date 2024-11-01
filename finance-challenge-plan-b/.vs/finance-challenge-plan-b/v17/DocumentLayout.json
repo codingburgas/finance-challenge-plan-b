@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Home\\Documents\\finance-challenge-plan-b\\finance-challenge-plan-b\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1AFB43-E532-4D41-9F01-0B640534853C}|finance-challenge-plan-b\\finance-challenge-plan-b.vcxproj|C:\\Users\\Home\\Documents\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E1AFB43-E532-4D41-9F01-0B640534853C}|finance-challenge-plan-b\\finance-challenge-plan-b.vcxproj|solutionrelative:finance-challenge-plan-b\\finance-challenge-plan-b.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "finance-challenge-plan-b.cpp",
+              "DocumentMoniker": "C:\\Users\\Home\\Documents\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b.cpp",
+              "RelativeDocumentMoniker": "finance-challenge-plan-b\\finance-challenge-plan-b.cpp",
+              "ToolTip": "C:\\Users\\Home\\Documents\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b.cpp",
+              "RelativeToolTip": "finance-challenge-plan-b\\finance-challenge-plan-b.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-01T16:12:06.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
