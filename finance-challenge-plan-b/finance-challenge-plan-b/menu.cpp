@@ -10,4 +10,7 @@ void menu(int choice)
     cout << " 3 - Exit" << endl;
     cout << " Enter your choice and press return: " << endl;
     cin >> choice;
+
+    if (choice == 1)
+        MonthlyIncomeandExpenses();
 }

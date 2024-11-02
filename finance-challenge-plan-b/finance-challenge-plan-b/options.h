@@ -3,5 +3,4 @@
 #include <string>
 
 using namespace std;
-void MonthlyInclomeandExpenses();
-void FinancialAdvice();
+void MonthlyIncomeandExpenses();
