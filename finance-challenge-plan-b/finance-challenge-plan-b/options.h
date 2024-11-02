@@ -4,3 +4,4 @@
 
 using namespace std;
 void MonthlyIncomeandExpenses();
+void FinancialAdvice();

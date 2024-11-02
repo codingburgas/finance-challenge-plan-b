@@ -13,4 +13,6 @@ void menu(int choice)
 
     if (choice == 1)
         MonthlyIncomeandExpenses();
+    else if (choice == 2)
+        FinancialAdvice();
 }
