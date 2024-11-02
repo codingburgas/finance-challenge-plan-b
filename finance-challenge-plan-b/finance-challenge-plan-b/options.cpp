@@ -37,7 +37,7 @@ void MonthlyIncomeandExpenses()
 
     //Check for returning to main menu 
 
-    cout << "Do you want to try another future?(y/n)" << endl;
+    cout << "Do you want to try another option?(y/n)" << endl;
     cin >> answer;
     if (answer == 'y')
     {
@@ -87,7 +87,7 @@ void FinancialAdvice()
     cout << "This advices are NOT from professionals!" << endl;
 
     //Check for returning to main menu 
-    cout << "Do you want to try another future?(y/n)" << endl;
+    cout << "Do you want to try another option?(y/n)" << endl;
     cin >> answer;
     if (answer == 'y')
     {
@@ -98,4 +98,71 @@ void FinancialAdvice()
     {
         exit(0);
     }
+}
+
+
+
+void financialQuiz()
+{
+    cout << "Instructions:" << endl;
+    cout << "Every answer starts with capital letters, the answer is one word for each question!" << endl;
+    cout << "Press ENTER when you are ready with your answer." << endl;
+
+    string a, b, c, d, e, f, g, h, i, j;
+
+    int score = 0;
+
+    string answers[] = { "Budget", "Interest", "Emergency fund", "Credit score", "Needs", "Debt", "Saving", "Inflation", "Stocks", "Taxes" };
+
+    cout << "1. What is a plan that helps you manage income and expenses?" << endl;
+    cin.ignore();
+    getline(cin, a);
+    if (a == answers[0])
+        score++;
+
+    cout << "2. What is the cost of borrowing money or the earnings on savings?" << endl;
+    getline(cin, b);
+    if (b == answers[1])
+        score++;
+
+    cout << "3. What do we call a savings account set aside for unexpected expenses?" << endl;
+    getline(cin, c);
+    if (c == answers[2])
+        score++;
+
+    cout << "4. What is the term for a number that represents a person’s reliability as a borrower?" << endl;
+    getline(cin, d);
+    if (d == answers[3])
+        score++;
+
+    cout << "5. What is more important to prioritize, 'needs' or 'wants'?" << endl;
+    getline(cin, e);
+    if (e == answers[4])
+        score++;
+
+    cout << "6. What should students try to avoid: debt or savings?" << endl;
+    getline(cin, f);
+    if (f == answers[5])
+        score++;
+
+    cout << "7. What habit is important for financial security: spending or saving?" << endl;
+    getline(cin, g);
+    if (g == answers[6])
+        score++;
+
+    cout << "8. What term describes the increase in prices over time?" << endl;
+    getline(cin, h);
+    if (h == answers[7])
+        score++;
+
+    cout << "9. What are shares in a company that people can buy and sell??" << endl;
+    getline(cin, i);
+    if (i == answers[8])
+        score++;
+
+    cout << "10. What is the money paid to the government on income or purchases?" << endl;
+    getline(cin, j);
+    if (j == answers[9])
+        score++;
+
 }
