@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finance-challenge-plan-b\\options.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\Desktop\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finance-challenge-plan-b\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\Desktop\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finance-challenge-plan-b\\options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\Desktop\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finance-challenge-plan-b\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\Desktop\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:finance-challenge-plan-b\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Home\\Desktop\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "menu.cpp",
               "DocumentMoniker": "C:\\Users\\Home\\Desktop\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\menu.cpp",
               "RelativeDocumentMoniker": "finance-challenge-plan-b\\menu.cpp",
@@ -46,12 +46,11 @@
               "RelativeToolTip": "finance-challenge-plan-b\\menu.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-01T16:41:44.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T16:41:44.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "menu.h",
               "DocumentMoniker": "C:\\Users\\Home\\Desktop\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\menu.h",
               "RelativeDocumentMoniker": "finance-challenge-plan-b\\menu.h",
@@ -64,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "options.h",
               "DocumentMoniker": "C:\\Users\\Home\\Desktop\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\options.h",
               "RelativeDocumentMoniker": "finance-challenge-plan-b\\options.h",
@@ -83,7 +82,7 @@
               "RelativeDocumentMoniker": "finance-challenge-plan-b\\options.cpp",
               "ToolTip": "C:\\Users\\Home\\Desktop\\finance-challenge-plan-b\\finance-challenge-plan-b\\finance-challenge-plan-b\\options.cpp",
               "RelativeToolTip": "finance-challenge-plan-b\\options.cpp",
-              "ViewState": "AQIAAMAAAAAAAAAAAAAAAHIAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-01T16:41:52.373Z",
               "EditorCaption": ""
@@ -98,8 +97,7 @@
               "RelativeToolTip": "finance-challenge-plan-b\\finance-challenge-plan-b.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-01T16:12:06.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T16:12:06.089Z"
             }
           ]
         }

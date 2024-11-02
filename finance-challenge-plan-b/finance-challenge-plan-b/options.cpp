@@ -4,12 +4,12 @@
 //function for monthlyIncomeandExpenses
 void monthlyIncomeandExpenses()
 {
-    double monthlyincome, foodExpenses, billsExpenses, lifestyleExpenses, medicineExpenses, unexpectedExpenses;
+    double monthlyincome, foodExpenses, billsExpenses, lifestyleExpenses, medicineExpenses, unexpectedExpenses, ownExpenses;
     string currency;
 
     char answer;
 
-    cout << "Enter the currency (lv, euro, dollars or other): ";
+    cout << "Enter the currency (lv, euro, dollar or other): ";
     cin >> currency;
 
     cout << "Income for the current month (" << currency << "): ";
@@ -30,7 +30,13 @@ void monthlyIncomeandExpenses()
     cout << "Unexpected expenses for the current month (" << currency << "): ";
     cin >> unexpectedExpenses;
 
-    double totalExpenses = foodExpenses + billsExpenses + lifestyleExpenses + medicineExpenses + unexpectedExpenses;
+    cout << "Expenses for own purcheses for (like technology, renovate or other) the current month (" << currency << "): ";
+    cin >> ownExpenses;
+
+    cout << "Unexpected expenses for the current month (" << currency << "): ";
+    cin >> unexpectedExpenses;
+
+    double totalExpenses = foodExpenses + billsExpenses + lifestyleExpenses + medicineExpenses + unexpectedExpenses + ownExpenses;
 
     cout << "All expenses for the current month: " << totalExpenses << " lv." << endl;
     cout << "Remaining income after expenses: " << (monthlyincome - totalExpenses) << " lv." << endl;
