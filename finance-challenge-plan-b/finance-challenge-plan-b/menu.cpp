@@ -5,14 +5,17 @@
 void menu(int choice)
 {
     cout << endl;
-    cout << " 1 - Monthly Inclome and Expenses" << endl;
+    cout << " 1 - Monthly Inclome and Expenses (calculation)" << endl;
     cout << " 2 - Financial Advice" << endl;
-    cout << " 3 - Exit" << endl;
+    cout << " 3 - Financial Quiz" << endl;
+    cout << " 4 - Exit" << endl;
     cout << " Enter your choice and press return: " << endl;
     cin >> choice;
 
     if (choice == 1)
-        MonthlyIncomeandExpenses();
+        monthlyIncomeandExpenses();
     else if (choice == 2)
-        FinancialAdvice();
+        financialAdvice();
+    else if (choice == 3)
+        financialQuiz();
 }
