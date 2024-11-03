@@ -3,5 +3,5 @@
 #include <string>
 
 using namespace std;
-static int choice;
+static int choice; //declare a variable "choice"
 void menu(int);

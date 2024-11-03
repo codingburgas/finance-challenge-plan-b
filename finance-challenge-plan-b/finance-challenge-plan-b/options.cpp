@@ -7,7 +7,7 @@ void monthlyIncomeandExpenses()
     double monthlyincome, foodExpenses, billsExpenses, lifestyleExpenses, medicineExpenses, unexpectedExpenses, ownExpenses;
     string currency;
 
-    char answer;
+    char answer; //variable for user choice to return to menu
 
     cout << "Enter the currency (lv, euro, dollar or other): ";
     cin >> currency;
@@ -41,25 +41,24 @@ void monthlyIncomeandExpenses()
     cout << "All expenses for the current month: " << totalExpenses << " lv." << endl;
     cout << "Remaining income after expenses: " << (monthlyincome - totalExpenses) << " lv." << endl;
 
-    //Check for returning to main menu 
-
+    //check for returning to main menu 
     cout << "Do you want to try another option?(y/n)" << endl;
     cin >> answer;
     if (answer == 'y')
     {
-        system("cls");
-        menu(choice);
+        system("cls"); //clear the console screen
+        menu(choice); //return to main menu
     }
     else
     {
-        exit(0);
+        exit(0); //exit the program
     }
 }
 
 //function for advices
 void financialAdvice()
 {
-    char answer;
+    char answer; //variable for user choice to return to menu
 
     cout << "1 - Set Clear Financial Goals" << endl;
     cout << "Define short-term and long-term financial goals to help you stay focused and motivated." << endl;
@@ -103,22 +102,22 @@ void financialAdvice()
 
     cout << "This advices are NOT from professionals!" << endl;
 
-    //Check for returning to main menu 
+    //check for returning to main menu 
     cout << "Do you want to try another option?(y/n)" << endl;
     cin >> answer;
     if (answer == 'y')
     {
-        system("cls");
-        menu(choice);
+        system("cls"); //clear the console screen
+        menu(choice); //return to main menu
     }
     else
     {
-        exit(0);
+        exit(0); //exit the program
     }
 }
 
 
-//function for financial questions
+//function for financialQuiz
 void financialQuiz()
 {
     cout << "Instructions:" << endl;
@@ -131,11 +130,12 @@ void financialQuiz()
 
     string answers[] = { "Budget", "Interest", "Emergency fund", "Credit score", "Needs", "Debt", "Saving", "Inflation", "Stocks", "Taxes" };
 
-    char answer;
+    char answer; //variable for user choice to return to menu
+    
     //print questions and checking answers
     cout << "1. What is a plan that helps you manage income and expenses?" << endl;
-    cin.ignore();
-    getline(cin, a);
+    cin.ignore(); //ignore the last characters from the input
+    getline(cin, a); //read a string
     if (a == answers[0])
         score++;
 
@@ -184,7 +184,7 @@ void financialQuiz()
     if (j == answers[9])
         score++;
 
-    // Print mistakes and correct answers
+    //print mistakes and correct answers
     (a == "Budget") ? cout << "1. Correct" << endl : cout << "1. Wrong: Correct answer is Budget" << endl;
 
     (b == "Interest") ? cout << "2. Correct" << endl : cout << "2. Wrong: Correct answer is Interest" << endl;
@@ -207,16 +207,16 @@ void financialQuiz()
 
     cout << "Your Score is " << score << "/10" << endl;
 
-    //Check for returning to main menu 
+    //check for returning to main menu 
     cout << "Do you want to try another option?(y/n)" << endl;
     cin >> answer;
     if (answer == 'y')
     {
-        system("cls");
-        menu(choice);
+        system("cls"); //clear the console screen
+        menu(choice); //return to main menu
     }
     else
     {
-        exit(0);
+        exit(0); //exit the program
     }
 }
