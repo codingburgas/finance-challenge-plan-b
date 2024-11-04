@@ -1,7 +1,7 @@
 #include "../finance-challenge-plan-b/menu.h"
 #include "../finance-challenge-plan-b/options.h"
 
-
+//function menu
 void menu(int choice)
 {
     cout << endl;
